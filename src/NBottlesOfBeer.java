@@ -18,12 +18,11 @@ public class NBottlesOfBeer {
             System.out.println(i + " bottles of beer on the wall, " + i + " bottles of beer.\n" +
                     "Take one down and pass it around, " + (i - 1) + " bottles of beer on the wall.\n");
             i--;
-
-            //last execution of loop function with appropriate grammar
-            if (i == 1) {
-                System.out.println("1 bottle of beer on the wall, 1 bottle of beer.\n" +
-                        "Take one down and pass it around, 0 bottles of beer on the wall.\n");
-            }
+        }
+        //last execution with appropriate grammar
+        if (i == 1) {
+            System.out.println("1 bottle of beer on the wall, 1 bottle of beer.\n" +
+                    "Take one down and pass it around, 0 bottles of beer on the wall.\n");
         }
         //concludes song
         System.out.println("0 bottles of beer on the wall, 0 bottles of beer.\n" +
